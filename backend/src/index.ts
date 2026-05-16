@@ -11,8 +11,10 @@ const port = Number(process.env.PORT || 4000);
 
 app.use(
   cors({
-    origin: process.env.FRONTEND_URL?.split(",") || true,
+    origin: true,
     credentials: true,
+    methods: ["GET", "POST", "PUT", "PATCH", "DELETE", "OPTIONS"],
+    allowedHeaders: ["Content-Type", "Authorization"],
   })
 );
 
