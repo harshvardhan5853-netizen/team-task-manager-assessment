@@ -1,0 +1,28 @@
+:root {
+  --bg-base: #0a0a0f;
+  --bg-surface: #111118;
+  --bg-card: #16161f;
+  --bg-elevated: #1c1c28;
+  --border: #ffffff0f;
+  --border-hover: #ffffff1a;
+  --accent-primary: #6366f1;
+  --accent-secondary: #8b5cf6;
+  --accent-success: #10b981;
+  --accent-warning: #f59e0b;
+  --accent-danger: #ef4444;
+  --text-primary: #f8fafc;
+  --text-secondary: #94a3b8;
+  --text-muted: #475569;
+}
+* { box-sizing: border-box; }
+body { margin: 0; background: var(--bg-base); color: var(--text-primary); font-family: Inter, system-ui, sans-serif; }
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.glass { @apply border border-[color:var(--border)] shadow-glass backdrop-blur-sm; background: color-mix(in srgb, var(--bg-card) 80%, transparent); }
+.btn { @apply inline-flex items-center justify-center gap-2 rounded-lg bg-gradient-to-r from-[color:var(--accent-primary)] to-[color:var(--accent-secondary)] px-4 py-2 text-sm font-semibold text-white transition duration-150 hover:scale-[1.02] active:scale-[0.98] disabled:cursor-not-allowed disabled:opacity-60; }
+.input { @apply w-full rounded-lg border border-[color:var(--border)] bg-[color:var(--bg-surface)] px-3 py-2 text-sm text-[color:var(--text-primary)] outline-none transition focus:ring-2 focus:ring-indigo-500/50; }
+.skeleton { @apply relative overflow-hidden rounded-lg bg-white/5; }
+.skeleton::after { content: ""; @apply absolute top-0 h-full w-1/2 animate-shimmer bg-gradient-to-r from-transparent via-white/10 to-transparent; }
+.chip { @apply inline-flex items-center gap-1 rounded-full border border-white/10 px-2 py-1 text-xs font-medium; }
