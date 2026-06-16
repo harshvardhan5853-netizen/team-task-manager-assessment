@@ -6,7 +6,7 @@ A full-stack **Team Task Manager** built with a modern, production-grade stack �
 
 ## 🔗 Live Demo
 
-🔗** Live URL**: [positive-expression-production-282b.up.railway.app](positive-expression-production-282b.up.railway.app)
+🔗** Live URL**: [https://positive-expression-production-282b.up.railway.app/](https://positive-expression-production-282b.up.railway.app/)
 
 
 ---
