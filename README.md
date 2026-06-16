@@ -6,11 +6,8 @@ A full-stack **Team Task Manager** built with a modern, production-grade stack �
 
 ## 🔗 Live Demo
 
-| | Link |
-|---|---|
-| 🌐 **Frontend (Vercel)** | [ethara-ai-assignment-ten.vercel.app](https://ethara-ai-assignment-ten.vercel.app/) |
-| ⚙️ **Backend API (Render)** | [ethara-ai-assignment-i1nt.onrender.com](https://ethara-ai-assignment-i1nt.onrender.com/) |
-| 🎬 **Video Demo** | [Watch on Google Drive](https://drive.google.com/file/d/1NTYGIVxweJ5uC6QWH7XjMKiliyCMOs15/view?usp=drive_link) |
+🔗** Live URL**: [positive-expression-production-282b.up.railway.app](positive-expression-production-282b.up.railway.app)
+
 
 ---
 
